@@ -1,3 +1,25 @@
+/*
+
+   ironbrew2-deobfuscator
+   -----------------------
+   i know the code isn't 
+   the best lol. i dont 
+   code like this 
+   anymore
+
+   it was pretty fun to
+   make, it can do stuff
+   on default generated 
+   samples, i guess
+
+   this is really bad,
+   and it shouldn't
+   be private anymore
+   
+   2022-2023
+   -----------------------
+*/
+
 const Parser = require("./AST/parser");  
 const Matching = require("./Utilities/matching");
 const Deserializer = require("./Bytecode Library/deserializer");
@@ -20,8 +42,6 @@ module.exports = async function(Script, Callback) {
 
     const _Writer = new Writer();
     _Writer.Initiate(Chunk);
-
-    console.log(Chunk)
     
     return Callback(_Writer.Finish());
 }
