@@ -1,0 +1,15 @@
+{
+  "name": "ironbrew2deobfuscator2",
+  "version": "1.0.0",
+  "description": "Utility to devirtualize IronBrew2 scripts",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "xouaiq",
+  "license": "ISC",
+  "dependencies": {
+    "luaparse": "^0.3.1",
+    "smart-buffer": "^4.2.0"
+  }
+}
